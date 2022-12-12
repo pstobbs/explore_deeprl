@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+pandas = "*"
+plotly = "*"
+jupyterlab = "*"
+pytest = "*"
+streamlit = "*"
+datetime = "*"
+matplotlib = "*"
+sklearn = "*"
+xgboost = "*"
+lightgbm = "*"
+#optuna = "*"
+pyfolio = "*"
+box2d-py = "*"
+box2d = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
